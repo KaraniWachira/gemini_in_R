@@ -1,0 +1,116 @@
+---
+title: "R shiny Apps Powered with Gemini"
+author: "karani keith"
+subtitle: "Build with Gemini AI"
+format: revealjs
+---
+
+## Introduction
+
+Shiny is an R package that makes it easy to build interactive web applications straight from R.![](images/example_shiny.gif)
+
+*example of a shiny application*
+
+## Agenda
+
+-   Integrate Google's Gemini AI Model into R: chat bot assitant
+
+-   To build a Shiny application that combines the power of images and text prompts.
+
+-   We'll explore how this application leverages an Gemini API to generate creative text descriptions based on uploaded images and user-provided prompts.
+
+## Getting started
+
+[🚀](https://emojipedia.org/rocket) install shiny package
+
+``` r
+install.packages("shiny")
+```
+
+[🚀](https://emojipedia.org/rocket) load shiny
+
+``` r
+library(shiny)
+```
+
+[🚀](https://emojipedia.org/rocket) start the app
+
+``` r
+runApp("my_app")
+```
+
+shiny comes with bslib R package provides a modern UI toolkit for Shiny and R Markdown based on Bootstrap.
+
+[bslib package documentation](https://rstudio.github.io/bslib/index.html)
+
+## Structure of a shiny app
+
+shiny apps have three components:
+
+1.  a user interface object: controls the layout and appearance of the application
+
+<!-- -->
+
+2.  a server function: contains the instructions that your computer needs to build your app
+
+3.  a call to the shiny app function
+
+### 
+
+## shiny apps examples [🔴](https://emojipedia.org/large-red-circle)
+
+[Bee colonies dashboard by Ryszard Szymański](https://demo.prod.appsilon.ai/bee-colony/)
+
+[ShinyMRI App](https://haozhu233.shinyapps.io/shinyMRI-contest/)
+
+## Terminologies Related to Gemini API
+
+-   Prompt: A question you want to ask?
+
+-   Token: sub words or words e.g. the word "unhappy" splits into "un" and "happy"
+
+-   Temperature: model parameter used to fine tune the response and it lies between 0 and 1.
+
+    > close to 0 value means model generate response which has highest probability while a value closer to 1 will produce responses that are more creative
+
+-   Max output tokens: defines the max number of token that can be generated in the response
+
+    reference: [Model parameters](https://ai.google.dev/tutorials/ai-studio_quickstart#step-3-freeform)
+
+## Packages we will use
+
+-   bslib() : The `bslib` R package provides a modern UI toolkit for Shiny based on Boostrap, Creation of delightful and customizable shiny apps, custome theming etc
+
+    reference: [bslib package](https://rstudio.github.io/bslib/index.html)
+
+-   gemini.R package : uses the gemini_image() to send to Gemini server and return results
+
+    reference : [gemini R package](https://github.com/jhk0530/gemini.R)
+
+## Open Rstudio for some shiny magic [🪄](https://emojipedia.org/magic-wand)
+
+![](images/Shiny-logo-01.png)
+
+## Q & A
+
+![](images/minion-any-questions-question-02.gif)
+
+## Events to look out for to learn R and Shiny
+
+1.  Shiny Conf 2024 [shiny conference 2024](https://www.shinyconf.com/)
+
+![](images/shiny-conf.jpg)
+
+## Events to look out for to learn R and Shiny
+
+2.  useR conf [use R Salzburg, Austria 2024](https://events.linuxfoundation.org/user/)
+
+![](images/useR_2024.png)
+
+## Events to look out for to learn R and Shiny
+
+3.  Posit conference 2024 [Posit Conference 2024](https://posit.co/conference/)
+
+![](images/posit_conf2024.png)
+
+## 
