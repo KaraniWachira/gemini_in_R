@@ -7,5 +7,5 @@
 # screencast video of the shiny app
 
 
-https://github.com/KaraniWachira/gemini_in_R/assets/61309573/2cc5be02-b781-44a5-99ff-49ff58fb93e4
 
+![2024-04-21-18-02-51](https://github.com/KaraniWachira/gemini_in_R/assets/61309573/66c06e5d-c13a-4e56-865d-8412e11c12aa)
