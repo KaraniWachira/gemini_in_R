@@ -5,3 +5,7 @@
 
 
 # screencast video of the shiny app
+
+
+https://github.com/KaraniWachira/gemini_in_R/assets/61309573/2cc5be02-b781-44a5-99ff-49ff58fb93e4
+
