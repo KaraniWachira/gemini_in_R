@@ -3,6 +3,7 @@
 1. The gemini-shiny.qmd file contains the Generate Content Based on Prompt: build together a chat bot assistant
 2. The gemini_r.qmd contain the slides for this project
 3. Shiny App with gemini power folder contains code with the Shiny App
+4. new something
 
 
 # screencast video of the shiny app
